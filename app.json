@@ -1,0 +1,18 @@
+{
+  "name": "♥️𓆩𝑨𝑯𝑴𝑨𝑫𓆪 PAIR♥️",
+  "description": "SESSION ID GENERATOR FOR WHATSAPP BOTS",
+  "logo": "https://i.ibb.co/9Hzw9RKL/jawadmd.jpg",
+  "repository": "https://github.com/usamile269",
+  "keywords": ["@usamile269"],
+  "success_url": "/", 
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" }
+  ],
+  "env": {      
+    "MESSAGE": {
+      "description": "Msg Attached With Session ID",
+      "value": "🔰 BY || 𓆩𝑨𝑯𝑴𝑨𝑫𓆪 OFFICIAL 🔰",
+      "required": false 
+    }
+  }
+}
